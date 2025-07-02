@@ -21,7 +21,7 @@ from sklearn.decomposition import LatentDirichletAllocation
 
 nlp = spacy.load('en_core_web_sm')
 
-data = pd.read_csv(r'D:articles.csv',encoding='latin-1')
+data = pd.read_csv('articles.csv',encoding='latin-1')
 print(data.head())
 
 
